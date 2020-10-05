@@ -236,6 +236,8 @@ data:
     - '{__name__="che_workspace_start_time_seconds_sum"}'
     # (codeready workspaces, @ibuziuk) The overall number of attempts for starting all the workspaces.
     - '{__name__="che_workspace_start_time_seconds_count"}'
+    # (cloud credential operator, @dgoodwin) Track current mode the cloud-credentials-operator is functioning under.
+    - '{__name__="cco_credentials_mode"}'
 kind: ConfigMap
 metadata:
   name: telemetry-config
